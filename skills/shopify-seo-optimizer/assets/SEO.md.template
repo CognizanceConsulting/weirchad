@@ -1,0 +1,59 @@
+# SEO strategy: {Store Name}
+
+Store domain: {domain}
+Created: {date}
+Last updated: {date}
+
+This file is the source of truth for SEO on this store. Read it at the start of every run. Write all copy against it. Do not add keywords without the owner's approval. Never assign one primary keyword to two pages.
+
+## Brand voice notes
+
+Short notes on how this brand sounds. Person, rhythm, vocabulary. Reference examples pulled from existing store copy.
+
+- Person:
+- Tone:
+- Signature words:
+
+## Primary keywords
+
+The main terms the store competes for. Each is owned by exactly one page. Track the owner in the assignments table below.
+
+- {keyword} — intent: {commercial/informational/transactional} — evidence: {source}
+- {keyword} — intent: — evidence:
+
+## Secondary keywords
+
+Supporting terms woven into copy alongside a primary keyword. These can appear on more than one page.
+
+- {keyword}
+- {keyword}
+
+## Audience search terms
+
+How real customers describe what they want, in their words. Use these to shape copy and find long-tail angles.
+
+- {phrase}
+- {phrase}
+
+## Banned and off-brand terms
+
+Never use these in any copy. Competitor trademarks, tone-wrong hype, unbackable claims, anything the owner has rejected.
+
+- {term} — reason:
+- {term} — reason:
+
+## Per-page keyword assignments
+
+One row per page. One primary keyword per page. Before adding a row, confirm the primary keyword is not already owned above.
+
+| Page type | Page (handle or title) | Primary keyword | Secondary keywords | Status | Last optimized |
+|-----------|------------------------|-----------------|--------------------|--------|----------------|
+| Product | {handle} | {primary} | {secondary, secondary} | pending | — |
+| Collection | {handle} | {primary} | {secondary} | pending | — |
+| Article | {handle} | {primary} | {secondary} | pending | — |
+
+## Keyword opportunities (proposed, not yet approved)
+
+Parking spot for terms research surfaced. These are NOT active until the owner approves and they move up into the sections above.
+
+- {keyword} — found via: {source} — proposed use: {page or new article brief}
