@@ -6,13 +6,22 @@ Last updated: {date}
 
 This file is the source of truth for SEO on this store. Read it at the start of every run. Write all copy against it. Do not add keywords without the owner's approval. Never assign one primary keyword to two pages.
 
-## Brand voice notes
+## Brand Context Profile
 
-Short notes on how this brand sounds. Person, rhythm, vocabulary. Reference examples pulled from existing store copy.
+Confirmed with the owner on {date}. Build and confirm this before writing any SEO. See `references/brand-context.md`. This brand is separate from the other stores on the account. Do not import their voice, keywords or audience.
 
-- Person:
-- Tone:
-- Signature words:
+- **Positioning (one line):**
+- **What it sells:**
+- **Primary customer:**
+- **Secondary customer:**
+- **Customer vocabulary (their words, not ours):**
+- **Geography and market:**
+- **Tone: do:**
+  - Example line 1 from on-brand copy:
+  - Example line 2:
+- **Tone: do not:**
+- **Competitors (research only, never named in copy):**
+- **Sibling brand firewall:** This brand is {brand}. It is not {the other brands}. Keep them fully separate.
 
 ## Primary keywords
 

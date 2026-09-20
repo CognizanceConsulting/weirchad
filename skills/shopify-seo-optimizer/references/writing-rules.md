@@ -2,18 +2,18 @@
 
 How to rewrite copy for Workflows 2, 3 and 4. Every output here follows the five rules in SKILL.md: no em dashes, no Oxford commas, short sentences, real numbers, never fabricate data.
 
-Before writing anything, read SEO.md for the store. Every page has an assigned primary keyword. Write to it. Never target a primary keyword that another page already owns.
+Before writing anything, two things must already be done for this one brand: the Brand Context Profile is confirmed (Step 2, `references/brand-context.md`) and SEO.md is loaded. Every page has an assigned primary keyword. Write to it. Never target a primary keyword that another page already owns.
 
-## Preserving brand voice
+## Writing in the brand's voice
 
-The store's existing copy is your voice reference. Do not invent a new tone. Before rewriting, read 3 to 5 of the store's current product and collection descriptions and note:
+The confirmed Brand Context Profile is your voice reference, backed by the store's existing on-brand copy. Do not invent a new tone. Before rewriting:
 
-- Sentence rhythm. Punchy or flowing.
-- Person. "You" versus "we" versus neutral.
-- Vocabulary the brand uses for its products and its customer.
-- What it never says. Cross-check the banned terms list in SEO.md.
+- Reread the profile's Tone: do and Tone: do not sections and its example lines.
+- Read 3 to 5 of the store's current product and collection descriptions to hear the rhythm in practice. If that copy conflicts with the confirmed profile, the profile wins and you flag the off-brand copy.
+- Match the profile's person, rhythm and customer vocabulary.
+- Cross-check the banned and off-brand terms list in SEO.md.
 
-Poet Snow Sports, Fly Guys and I Think We Missed a Turn are distinct brands with distinct voices. Match the one you are working on. When unsure whether a phrase fits, quote it back to the user and ask.
+Poet Snow Sports, Fly Guys and I Think We Missed a Turn are distinct brands with distinct voices, customers and keywords. You are working on exactly one of them. Never borrow a phrase, angle or keyword from another. Before proposing any line, run this check: would this sentence fit a different brand just as well? If yes, it is too generic. Rewrite it so it could only belong to this brand. When unsure whether a phrase fits, quote it back to the user and ask.
 
 ## Workflow 2: Product page optimization
 

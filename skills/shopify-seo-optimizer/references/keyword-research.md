@@ -28,13 +28,13 @@ Report findings like this: "Google autocomplete suggests 'powder skis' before 'f
 
 ## Workflow 6: The SEO.md strategy file
 
-Location: `~/.claude/{store-slug}/SEO.md`. One file per store. Read it at the start of every run. Write all content against it.
+Location: `~/.claude/{slug}/SEO.md`. One file per brand. It holds the confirmed Brand Context Profile plus all keyword data. Read it at the start of every run. Read only the active brand's file. Write all content against it.
 
 ### First run: build it
 
 If the file does not exist, this is the first run for the store.
 
-1. Make the directory: `~/.claude/{store-slug}/`.
+1. Make the directory: `~/.claude/{slug}/`.
 2. Copy the structure from `assets/SEO.md.template`.
 3. Do a keyword research pass (Workflow 5) and pull the store's catalog so assignments map to real products and collections.
 4. Fill in primary keywords, secondary keywords, audience search terms, banned or off-brand terms and the per-page assignments table.
