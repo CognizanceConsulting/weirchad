@@ -24,17 +24,18 @@ Report findings like this: "Google autocomplete suggests 'powder skis' before 'f
 3. Identify search intent per term. Informational means write an article. Commercial or transactional means optimize a product or collection.
 4. Find long-tail opportunities. Longer, specific phrases with clearer intent and less competition. "powder skis for beginners" beats "skis" for a small brand. These are where a small store can actually rank.
 5. Look at what competitors rank for and where the store has no page. Those gaps become article briefs (Workflow 4).
-6. Bring findings back to the user. Propose additions to SEO.md. Wait for approval.
+6. Weigh timing against the brand profile's Seasonality. Prioritize terms whose season is near, and prepare peak-season terms ahead of the peak rather than during it.
+7. Bring findings back to the user. Propose additions to SEO.md. Wait for approval.
 
 ## Workflow 6: The SEO.md strategy file
 
-Location: `~/.claude/{slug}/SEO.md`. One file per brand. It holds the confirmed Brand Context Profile plus all keyword data. Read it at the start of every run. Read only the active brand's file. Write all content against it.
+Location: `seo-strategy/{slug}/SEO.md` in the repo. One file per brand. It holds the confirmed Brand Context Profile plus all keyword data. Read it at the start of every run. Read only the active brand's file. Write all content against it.
 
 ### First run: build it
 
 If the file does not exist, this is the first run for the store.
 
-1. Make the directory: `~/.claude/{slug}/`.
+1. Make the directory: `seo-strategy/{slug}/` in the repo.
 2. Copy the structure from `assets/SEO.md.template`.
 3. Do a keyword research pass (Workflow 5) and pull the store's catalog so assignments map to real products and collections.
 4. Fill in primary keywords, secondary keywords, audience search terms, banned or off-brand terms and the per-page assignments table.

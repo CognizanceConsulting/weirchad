@@ -15,14 +15,15 @@ A phrase that sounds right for skis will sound wrong for a different brand's cus
 
 ## The Brand Context Profile
 
-Build this for the active brand and save it into `~/.claude/{slug}/SEO.md`. Fields:
+Build this for the active brand and save it into `seo-strategy/{slug}/SEO.md` in the repo. Fields:
 
 - **Positioning.** One line. What this brand is and why it exists, in its own terms.
 - **What it sells.** The real product range. Categories, hero products, price posture.
 - **Primary customer.** Who buys. Be specific: their level, their goal, their context.
 - **Secondary customer.** The next audience, if any.
 - **Customer vocabulary.** The words the customer actually uses to search and talk about the products. Not the words the brand wishes they used. This feeds keyword research.
-- **Geography and market.** Where customers are. Language and region shape search terms and shipping and seasonal framing.
+- **Geography and market.** Where customers are. Language and region shape search terms, shipping and framing. Note the country and any region focus.
+- **Seasonality.** When demand rises and falls for this brand's products, and the buying calendar behind it. This sets keyword timing: which terms to prioritize now, which to prepare ahead of a peak. Name the seasons and the products they lift.
 - **Tone: do.** How the brand sounds. Rhythm, person, energy, humor. With 2 or 3 real example lines pulled from existing on-brand copy.
 - **Tone: do not.** What the brand never sounds like. Words and registers to avoid. This is a firewall against generic copy and against a sibling brand's voice.
 - **Competitors.** Who ranks against this brand for its terms. Used in keyword research, never named in customer copy.

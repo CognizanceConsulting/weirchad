@@ -46,7 +46,7 @@ Firewall rules, non-negotiable:
 - Never reference or compare one brand inside another brand's copy.
 - If mid-run the user pivots to a different store, stop, close out the current brand, and start a fresh run with fresh context. Do not carry anything over.
 
-Slug is lowercase and hyphenated. It keys the per-brand file path `~/.claude/{slug}/`.
+Slug is lowercase and hyphenated. It keys the per-brand strategy directory `seo-strategy/{slug}/` in this repo. Strategy files live in the repo, not in `~/.claude`, so they persist across remote and web sessions and stay version controlled. If you ever run this skill outside a repo, fall back to `~/.claude/{slug}/SEO.md`.
 
 ## Step 1: Pick the one store and confirm access (run this first, every time)
 
@@ -70,7 +70,7 @@ Every piece of copy in later workflows is checked against this profile before it
 
 ## Step 3: Load the keyword strategy file
 
-The active brand has a strategy file at `~/.claude/{slug}/SEO.md`. Read it at the start of every run. Read only this brand's file. All content you write must align with it.
+The active brand has a strategy file at `seo-strategy/{slug}/SEO.md` in this repo. Read it at the start of every run. Read only this brand's file. All content you write must align with it.
 
 - If the file exists, read it fully. It holds primary keywords, secondary keywords, audience search terms, banned or off-brand terms and per-page keyword assignments.
 - If it does not exist, this is the first run for this store. Create it. See `references/keyword-research.md` for the build process and `assets/SEO.md.template` for the structure.
@@ -89,7 +89,7 @@ Match the user's request to a workflow. Read the linked reference file before do
 3. **Collection page optimization.** Write or improve collection descriptions of 150 to 300 words with internal links to top products. See `references/writing-rules.md`.
 4. **Blog SEO.** Audit articles for keyword targeting, title tags, meta, header structure and internal links. Rewrite on request. Generate briefs from keyword gaps. Every article links to at least 2 relevant products or collections. See `references/writing-rules.md` and `references/keyword-research.md`.
 5. **Keyword research.** Use web search to find search intent, competitor rankings and long-tail opportunities before writing anything. See `references/keyword-research.md`.
-6. **Keyword strategy file.** Build and maintain `~/.claude/{slug}/SEO.md`, including the Brand Context Profile. See `references/keyword-research.md` and `references/brand-context.md`.
+6. **Keyword strategy file.** Build and maintain `seo-strategy/{slug}/SEO.md`, including the Brand Context Profile. See `references/keyword-research.md` and `references/brand-context.md`.
 7. **Technical checks.** Verify handles are clean, check redirect chains, confirm structured data basics and flag theme-controlled items that need manual fixes. See `references/technical-checks.md`.
 8. **Apply changes.** Push approved updates via the Admin API. Before/after table and confirmation first. See below and `references/shopify-api.md`.
 
@@ -99,7 +99,8 @@ For any workflow, the exact Shopify read and write operations live in `reference
 
 This is the only workflow that mutates the store. Treat it carefully.
 
-1. Assemble every proposed change into a before/after table. One row per field. Show the current value, the new value and the character count for length-limited fields.
+1. **Voice self-check first.** Before anything reaches the table, reread the active brand's Brand Context Profile and re-check every proposed line against its Tone: do not list and the banned terms in SEO.md. Apply the test: could this sentence belong to a different brand just as well. Fix or drop anything that fails. Nothing off-brand reaches the before/after table.
+2. Assemble every approved-in-voice change into a before/after table. One row per field. Show the current value, the new value and the character count for length-limited fields.
 2. Present the table to the user. State how many items and fields will change with real numbers. Example: "This updates 14 fields across 6 products."
 3. Wait for explicit confirmation. "Looks good", "go ahead" or "approved" is enough. Silence is not.
 4. Push only the approved rows. If the user approves some and rejects others, push only the approved ones.
